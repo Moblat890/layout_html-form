@@ -1,7 +1,16 @@
-.block-field {
-  margin: 20px;
+.fieldset {
+  margin: 20px 0;
 }
 
-.form-field {
-  margin: 10px;
+.formField {
+  margin: 10px 0;
+}
+
+.formField:first-of-type,
+.fieldset:first-of-type {
+  margin-top: 0;
+}
+
+.formField:last-of-type {
+  margin-bottom: 0;
 }
